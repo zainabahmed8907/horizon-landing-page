@@ -1,0 +1,62 @@
+.story {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 15rem;
+  padding-right: 14rem;
+  width: 100%;
+  &__picture {
+    img {
+      width: 400px;
+      height: 400px;
+      clip-path: polygon(
+        50% 0%,
+        90% 20%,
+        100% 60%,
+        75% 100%,
+        25% 100%,
+        0% 60%,
+        10% 20%
+      );
+      @media screen and (max-width: 828px) {
+        width: 200px;
+        height: 200px;
+      }
+    }
+
+    @media screen and (max-width: 828px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__desc {
+    width: 500px;
+    margin-left: 40px;
+    h3 {
+      font-size: 3rem;
+      @media screen and (max-width: 828px) {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 15px;
+      }
+    }
+    p {
+      font-size: 1.4rem;
+      padding-bottom: 10px;
+
+      @media screen and (max-width: 820px) {
+        text-align: justify;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

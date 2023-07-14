@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizons</title>
+    <link rel="stylesheet " href="css/index.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Grand+Hotel&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="shortcut icon" type="image/png" href="img/logo-horizon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <p class="header__logo">Horizons</p>
+        <div class="header__text heading-1">
+            <h1> Concisely describe</h1>
+            <h1>your offer</h1>
+        </div>
+
+        <div class="header__content">
+            <div class="content__img">
+                <img src="img/header_image.png" alt="header-content" />
+            </div>
+            <div class="content">
+                <form class="content__fields">
+
+                    <div>
+                        <label for="first_name" class="label">First Name</label><br />
+                        <input type="text" required name="firstName" />
+                    </div>
+
+                    <div>
+                        <label for="last_name" class="label">Last Name</label><br />
+                        <input type="text" required name="lastName" />
+
+                    </div>
+                    <div>
+                        <label for="email" class="label">Email</label><br />
+                        <input type="email" required name="email" />
+                    </div>
+
+                    <div>
+                        <label class="label" for="industry">Industry</label><br />
+
+                        <select>
+                            <option value="IT">
+                                IT
+                            </option>
+                            <option value="Film">
+                                Film
+                            </option>
+                            <option value="music">
+                                Music
+                            </option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button class="submit_btn" type="submit">CLAIM NOW</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="header__desc">
+            <p>
+                No need to get clever. Tell people exactly what you're offering, then use this space to communicate your
+                key value proposition.
+            </p>
+        </div>
+    </header>
+
+    <section class="benifits">
+
+        <div class="cards">
+            <div>
+                <div class="card__img">
+                    <img src="img/sun.png" alt="sun" />
+                </div>
+                <h4>Benifit 1</h4>
+                <p>
+
+                    What’s the value people will get from your offer? Use this section to make your most compelling
+                    pitch.
+                </p>
+            </div>
+
+            <div>
+                <div class="card__img">
+                    <img src="img/map_pin.png" alt="sun" />
+
+                </div>
+                <h4>Benifit 1</h4>
+                <p>
+
+                    What’s the value people will get from your offer? Use this section to make your most compelling
+                    pitch.
+                </p>
+            </div>
+            <div>
+                <div class="card__img">
+                    <img src="img/mountain.jpg" alt="sun" />
+
+                </div>
+                <h4>Benifit 1</h4>
+                <p>
+
+                    What’s the value people will get from your offer? Use this section to make your most compelling
+                    pitch.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="story">
+        <div class="story__picture">
+            <img src="img/snow.jpg" alt="landscapes" />
+
+        </div>
+        <div class="story__desc">
+            <h3>Tell a compelling story</h3>
+
+            <p class="story__desc--p1">
+                Use this long-form section to really paint a picture of the before and after. What’s the problem you’re
+                solving? What’s the benefit people are getting?
+            </p>
+            <p class="story__desc--p2">
+                For example, if you’re hosting a webinar about how to collect leads for an online business, describe the
+                struggle of trying to find and convert prospects—then explain how your webinar is gonna help make it
+                easier.
+            </p>
+            <p class="story__desc--p3">
+                ou can also highlight the urgency or exclusivity of your offer. <strong>
+                    If this is only available on a
+                    particular day or for a limited time, make that clear.
+                </strong>
+            </p>
+        </div>
+    </section>
+
+
+    <section class="partners">
+
+        <div>
+            <h3>OUR PARTNERS</h3>
+        </div>
+
+
+        <div class="partners__imgs">
+
+            <div class="partners__imgs--1">
+                <img class="partner-img" src="./img/bull.png" alt="partner" />
+            </div>
+
+            <div class="partners__imgs--2">
+                <img class="partner-img" src="./img/javastar.png" alt="partner" />
+            </div>
+
+            <div class="partners__img--3">
+                <img class="partner-img" src="./img/lifebook.png" alt="partner" />
+            </div>
+
+            <div class="partners__img--4">
+                <img class="partner-img" src="./img/mailbanana.png" alt="partner" />
+            </div>
+        </div>
+
+    </section>
+
+    <section class="visitors">
+        <h3 class="visitors__heading">Show visitors what they’re signing up for
+        </h3>
+        <div class="visitors__tagline">
+            <p>
+                Include a video or photo to help understand your offer (or just to hype ‘em up).
+
+            </p>
+        </div>
+
+        <div class="visitors__video">
+            <button  type="button" id="play">
+                <i class="fa fa-play"></i>
+            </button>
+
+            <button  type="button" id="pause">
+                <i class="fa fa-pause"></i>
+            </button>
+    
+        
+            <video id="video-player">
+                <source src="./img/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+         
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials__details">
+            <img src="./img/person.jpg" class="person" />
+            <div>
+                <p class="person__name">Joseph Murphy</p>
+            </div>
+            <div class="testimonial">
+                "Share a real testimonial that hits some of your benefits (but isn’t too sales-y)."
+            </div>
+        </div>
+
+    </section>
+
+    <section class="details">
+        <div class="details__heading">
+            <h3>Some more details of your offer</h3>
+
+
+        </div>
+        <div class="details__list">
+            <div class="list-item">
+
+                <div>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <p class="list-item__heading">Detail 1</p>
+
+                    <p class="list-item__detail">
+                        This is a great space to further clarify your offer, whether it’s additional benefits or
+                        need-to-know details.</p>
+                </div>
+            </div>
+
+            <div class="list-item">
+
+                <div>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <p class="list-item__heading">Detail 2</p>
+
+                    <p class="list-item__detail">
+                        For example, you could call out some of the specific, actionable learnings from your ebook or
+                        webinar.sd
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="list-item">
+                <div>
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                    <p class="list-item__heading">Detail 3</p>
+
+                    <p class="list-item__detail">This is a great space to further clarify your offer, whether it’s
+                        additional benefits or
+                        need-to-know details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="end__content">
+            <h4 class="end__heading">End with one final call to action
+            </h4>
+            <div class="end__detail">
+                <p>
+                    This is your last shot at converting someone. Remember to link the call to action button so it sends
+                    visitors back to your form at the top of the page.
+                </p>
+            </div>
+            <div class="claim">
+                <button type="button">
+                    CLAIM NOW
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+        var playButton = document.getElementById("play");
+        var pauseButton = document.getElementById("pause");
+
+        var video = document.getElementById("video-player");
+
+        playButton.addEventListener("click", () => {
+            video.play();
+            pauseButton.style.display = "block"
+            playButton.style.display = "none"
+
+
+        })
+
+        pauseButton.addEventListener("click", () => {
+            video.pause();
+            pauseButton.style.display = "none"
+            playButton.style.display = "block"
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>

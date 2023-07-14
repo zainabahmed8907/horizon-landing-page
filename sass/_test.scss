@@ -1,0 +1,44 @@
+.testimonials {
+  background: url("../img/snow_scene.jpg"), white;
+  background-position: center center;
+  mask-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  background-blend-mode:luminosity;
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+  }
+  img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .person {
+    &__name {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
+  .testimonial {
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+
+
+    @media screen and (max-width: 820px) {
+      font-size: 18px;
+    }
+  }
+}

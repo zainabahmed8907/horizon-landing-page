@@ -1,0 +1,50 @@
+.end {
+  background-color: black;
+
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__heading {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+  &__detail {
+    font-size: 14px;
+    color: white;
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .claim {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    button {
+      background-color: rgba(0, 192, 153, 1);
+      width: 200px;
+      padding: 10px;
+      border-radius: 7px;
+      color: white;
+      cursor: pointer;
+      transition: all 0.2s ease-in;
+
+      &:hover{
+        background-color:rgb(35, 236, 196); 
+      }
+    }
+  }
+}
